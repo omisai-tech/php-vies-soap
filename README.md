@@ -1,8 +1,8 @@
 # PHP VIES SOAP
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/omisai/vies-soap.svg?style=flat-square)](https://packagist.org/packages/omisai/vies-soap)
-[![License](https://img.shields.io/packagist/l/omisai/vies-soap?style=flat-square)](https://packagist.org/packages/omisai/vies-soap)
-[![Tests](https://img.shields.io/github/actions/workflow/status/omisai-tech/php-vies-soap/run-tests.yml?branch=main&style=flat-square)](https://github.com/omisai-tech/php-vies-soap/actions/workflows/run-tests.yml)
+[![License](https://img.shields.io/badge/License-MIT-green.svg?style=flat-square)](https://github.com/sponsors/omisai-tech/LICENSE)
+[![Tests](https://img.shields.io/github/actions/workflow/status/omisai-tech/php-vies-soap/test.yml?branch=main&style=flat-square)](https://github.com/omisai-tech/php-vies-soap/actions/workflows/test.yml)
 [![PHP Version Require](https://img.shields.io/badge/PHP-%3E%3D8.1-blue?style=flat-square&logo=php)](https://packagist.org/packages/omisai//vies-soap)
 
 A lightweight, type-safe PHP package for validating EU VAT numbers via the European Commission's VIES (VAT Information Exchange System) SOAP service.
@@ -439,7 +439,7 @@ If you discover any security-related issues, please email security@omisai.com in
 
 ## License
 
-This package is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+This package is open-sourced software licensed under the [MIT license](https://github.com/sponsors/omisai-tech/LICENSE).
 
 ## Sponsoring
 
