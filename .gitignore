@@ -1,3 +1,6 @@
 /vendor
 composer.lock
 .vscode/
+checkVatServices.wsdl
+checkVatTestService.wsdl
+test_viesclient.php
