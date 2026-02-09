@@ -1,13 +1,18 @@
 {
-    "name": "omisai/php-vies-soap",
+    "name": "omisai/vies-soap",
     "description": "PHP package to check Vat number through SOAP API of VIES",
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Omisai\\PhpViesSoap\\": "src/"
+            "Omisai\\ViesSoap\\": "src/"
         }
     },
-    "homepage": "https://github.com/omisai-tech/php-countries",
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "homepage": "https://github.com/omisai-tech/php-vies-soap",
     "authors": [
         {
             "name": "Sándor Gergely Bornemisza",
@@ -24,7 +29,8 @@
         }
     },
     "require": {
-        "php": "*"
+        "php": "^8.1",
+        "ext-soap": "*"
     },
     "scripts": {
         "test": "./vendor/bin/pest --colors=always",
