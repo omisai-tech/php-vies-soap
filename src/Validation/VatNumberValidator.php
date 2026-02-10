@@ -7,6 +7,7 @@ use Omisai\ViesSoap\Exceptions\ViesValidationException;
 class VatNumberValidator
 {
     private const COUNTRY_CODE_PATTERN = '/^[A-Z]{2}$/';
+
     private const VAT_NUMBER_PATTERN = '/^[0-9A-Za-z+\*\.]{2,12}$/';
 
     /**
