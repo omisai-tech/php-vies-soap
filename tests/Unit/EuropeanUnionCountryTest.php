@@ -12,7 +12,6 @@ it('detects Hungarian country code', function () {
         ->and(EuropeanUnionCountry::isHungarianCountryCode('de'))->toBeFalse();
 });
 
-
 it('detects Austria country code', function () {
     expect(EuropeanUnionCountry::isAustriaCountryCode('at'))->toBeTrue()
         ->and(EuropeanUnionCountry::isAustriaCountryCode('de'))->toBeFalse();
