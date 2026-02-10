@@ -2,7 +2,7 @@
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/omisai/vies-soap.svg?style=flat-square)](https://packagist.org/packages/omisai/vies-soap)
 [![License](https://img.shields.io/badge/License-MIT-green.svg?style=flat-square)](https://github.com/sponsors/omisai-tech/LICENSE)
-[![Test](https://github.com/omisai-tech/php-vies-soap/actions/workflows/test.yml/badge.svg)](https://github.com/omisai/php-vies-soap/actions/workflows/test.yml)
+[![Test](https://github.com/omisai-tech/php-vies-soap/actions/workflows/test.yml/badge.svg)](https://github.com/omisai-tech/php-vies-soap/actions/workflows/test.yml)
 [![PHP Version Require](https://img.shields.io/badge/PHP-%3E%3D8.1-blue?style=flat-square&logo=php)](https://packagist.org/packages/omisai/vies-soap)
 
 A lightweight, type-safe PHP package for validating EU VAT numbers via the European Commission's VIES (VAT Information Exchange System) SOAP service.
