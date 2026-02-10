@@ -27,7 +27,8 @@
         }
     ],
     "require-dev": {
-        "pestphp/pest": "^4.3"
+        "pestphp/pest": "^4.3",
+        "laravel/pint": "^1.27"
     },
     "config": {
         "allow-plugins": {
@@ -40,7 +41,8 @@
     },
     "scripts": {
         "test": "./vendor/bin/pest --colors=always",
-        "compile": "php compiler.php"
+        "compile": "php compiler.php",
+        "pint": "./vendor/laravel/pint/builds/pint"
     },
     "minimum-stability": "dev",
     "prefer-stable": true
