@@ -76,7 +76,7 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          gh release create v${{ steps.versioning.outputs.new_tag }} \
+          gh release create ${{ steps.versioning.outputs.new_tag }} \
           --generate-notes \
-          --title "v${{ steps.versioning.outputs.new_tag }}" \
+          --title "${{ steps.versioning.outputs.new_tag }}" \
           --target master \
