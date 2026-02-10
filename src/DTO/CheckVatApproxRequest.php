@@ -33,7 +33,7 @@ class CheckVatApproxRequest
 
         return array_filter(
             $payload,
-            static fn(?string $value): bool => $value !== null
+            static fn (?string $value): bool => $value !== null
         );
     }
 }
