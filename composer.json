@@ -1,6 +1,12 @@
 {
     "name": "omisai/vies-soap",
     "description": "PHP package to check Vat number through SOAP API of VIES",
+    "keywords": [
+        "vies",
+        "sdk",
+        "soap",
+        "api"
+    ],
     "license": "MIT",
     "autoload": {
         "psr-4": {
