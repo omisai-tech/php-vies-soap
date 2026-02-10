@@ -13,15 +13,16 @@ use Omisai\ViesSoap\Validation\VatNumberValidator;
 class ViesClient
 {
     private SoapClientFactoryInterface $clientFactory;
+
     private VatNumberValidator $validator;
 
     public function __construct(
-        private ViesConfig $config = new ViesConfig(),
+        private ViesConfig $config = new ViesConfig,
         ?SoapClientFactoryInterface $clientFactory = null,
         ?VatNumberValidator $validator = null,
     ) {
-        $this->clientFactory = $clientFactory ?? new SoapClientFactory();
-        $this->validator = $validator ?? new VatNumberValidator();
+        $this->clientFactory = $clientFactory ?? new SoapClientFactory;
+        $this->validator = $validator ?? new VatNumberValidator;
     }
 
     public function checkVat(string $countryCode, string $vatNumber): CheckVatResponse
