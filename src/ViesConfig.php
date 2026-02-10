@@ -5,6 +5,7 @@ namespace Omisai\ViesSoap;
 class ViesConfig
 {
     public const PRODUCTION_WSDL = 'https://ec.europa.eu/taxation_customs/vies/checkVatService.wsdl';
+
     public const TEST_WSDL = 'https://ec.europa.eu/taxation_customs/vies/checkVatTestService.wsdl';
 
     /** @param array<string, mixed> $options */
