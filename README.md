@@ -439,7 +439,7 @@ Please see [SECURITY.md](.github/SECURITY.md) for details on reporting security 
 
 ## License
 
-This package is open-sourced software licensed under the [MIT license](https://github.com/sponsors/omisai-tech/LICENSE).
+This package is open-sourced software licensed under the [MIT license](LICENSE).
 
 ## Sponsoring
 
