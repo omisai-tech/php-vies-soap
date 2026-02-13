@@ -435,7 +435,7 @@ Please see [CONTRIBUTING.md](CONTRIBUTING.md) for details on how to contribute t
 
 ## Security
 
-If you discover any security-related issues, please email security@omisai.com instead of using the issue tracker.
+Please see [SECURITY.md](.github/SECURITY.md) for details on reporting security vulnerabilities.
 
 ## License
 
